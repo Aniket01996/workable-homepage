@@ -1,0 +1,260 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #01B7D0;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+img {
+    height: 4rem;
+    width: 10rem;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    font-weight: bold;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.fa-bars {
+    display: none;
+    margin: 20px;
+}
+
+li {
+    margin: 15px;
+    display: inline;
+}
+
+.try {
+    background-color: #01796C;
+    height: 1rem;
+    padding: 23px;
+    margin: 0px;
+    color: white;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.access {
+    text-align: center;
+    color: whitesmoke;
+    margin: 2% 10% 2% 10%;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid whitesmoke;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.info {
+    font-style: italic;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 30px;
+}
+
+.owner {
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    margin: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 350px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding: 10px;
+}
+
+.check {
+    /* margin: 5px; */
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.checkbox {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.check-consent {
+    font-size: 10px;
+    text-align: center;
+}
+
+button {
+    color: whitesmoke;
+    background-color: #01796C;
+    margin: 10px;
+    padding: 10px;
+    width: 360px;
+    font-weight: bold;
+    border: 1px solid #01796C;
+    box-shadow: 3px 3px 5px black;
+}
+
+.policy {
+    font-size: 10px;
+    margin: -20px 0px 0px 40px;
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    width: 100px;
+    height: 0px;
+}
+
+.signUp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px black;
+    /* border-radius: 5px; */
+}
+
+#submitMessage {
+    display: none;
+    /* visibility: hidden; */
+    font-weight: bold;
+}
+
+/* .active {
+    display: block !important;
+    visibility: visible !important;
+} */
+
+.btn1 {
+    border: 1px solid dodgerblue;
+    background-color: dodgerblue;
+}
+
+.btn2 {
+    border: 1px solid crimson;
+    background-color: crimson;
+}
+
+i {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: -11px;
+}
+
+@media screen and (max-width: 400px) {
+    nav {
+        padding: 5px;
+    }
+
+    .nav-right ul {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .nav-right ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .access {
+        font-size: 14px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        display: flex;
+        width: 80%;
+        border-right: 0px solid #01B7D0;
+
+    }
+
+    .left {
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    .input {
+        width: 90%;
+    }
+
+    .check {
+        width: 20px;
+        height: 20px;
+    }
+
+    .checkbox {
+
+        width: 90%;
+        align-items: flex-start;
+    }
+
+    button {
+        width: 100%;
+    }
+}

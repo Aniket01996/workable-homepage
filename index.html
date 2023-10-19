@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bcce40e9b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <i class="fa-solid fa-bars"></i>
+            <img src="./workable-logo.png" alt="">
+        </div>
+        <div class="nav-right">
+            <ul type="none">
+                <li>Candidate Sourcing</li>
+                <li>Applicant Tracking</li>
+                <li>Mobile Recruiting App</li>
+                <li class="try">Try it for free</li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <p class="access">Try Workable's all-in-one recruiting software free for 15 days. Access features including job
+            posting, applicant tracking and team
+            communication. There's no download or credit card required.</p>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="left">
+                <div class="profile-pic"></div>
+                <p class="info">
+                    We have reduced our cost per hire by 50%, reduced our <br> agency utilization, increased our
+                    employee referrals by 3x <br> and also improved our process flows and communication <br> with
+                    candidates.
+                </p>
+                <p class="owner">JAY SCHAUFELD
+                    <br>
+                    OwnerIQ
+                </p>
+            </div>
+            <form id="myForm" ">
+                <div class=" right">
+                <label for="name">
+                    <input type="text" id="fName" name="name" class="input" placeholder="First name..."></label>
+                <label for="lastName">
+                    <input type="text" id="lName" name="lastName" class="input" placeholder="Last name..."> </label>
+                <label for="email">
+                    <input type="email" id="email" name="email" class="input" placeholder="Email..."></label>
+                <label for="password">
+                    <input type="password" id="password" name="password" class="input" placeholder="Password...">
+                </label>
+                <div class="checkbox">
+                    <input type="checkbox" name="" class="check" required>
+                    <p class="check-consent">Yes, I'd like to receive new sources like tutorials, templates or the
+                        latest hiring advice and receive invitations to Workable events.(You can opt out at any
+                        time)
+                    </p>
+                </div>
+                <button onclick="validation(event)" class="sumbitBtn">SIGN UP</button>
+                <p id="submitMessage">Thanks for submitting!</p>
+        </div>
+        <p class="policy">Our <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Privacy
+                policy</a></p>
+        <div class="signUp">
+            <hr>
+            <p class="check-consent">Our Sign up with</p>
+            <hr>
+        </div>
+        <div class="signUp-btn">
+            <button class="btn btn1"> <i class="fa-brands fa-linkedin fa-2xl"></i>LINKEDIN</button>
+            <button class="btn btn2"> <i class="fa-brands fa-square-google-plus fa-2xl"></i>GOOGLE</button>
+        </div>
+        </form>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
